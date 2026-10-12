@@ -12,6 +12,7 @@ Frontend-only Next.js (App Router) port of the final v5 design. No backend.
 | `/problem-of-the-day` | `Problem of the Day.html` |
 | `/community` | `Community.html` |
 | `/careers` | `Careers.html` |
+| `/lms` | `Liminal LMS.dc.html` (student dashboard; not linked from the public site, `noindex`) |
 
 ## How it is built
 
@@ -19,7 +20,7 @@ The v5 pages were authored as `.dc.html` templates (HTML + `{{ }}` bindings + a 
 
 ```bash
 npm install
-npm run convert   # regenerate src/dc/generated from ../v5 (only needed if v5 changes)
+npm run convert   # regenerate src/dc/generated from sources/ (only needed if the sources change)
 npm run dev       # http://localhost:3100
 npm run build && npm start
 ```

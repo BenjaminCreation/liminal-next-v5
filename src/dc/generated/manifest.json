@@ -98,5 +98,10 @@
     "defaults": {
       "pose": "wave"
     }
+  },
+  "Lms": {
+    "compName": "Lms",
+    "title": "Liminal Math — Learn",
+    "defaults": {}
   }
 }
